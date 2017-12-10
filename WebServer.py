@@ -36,11 +36,6 @@ def parse(conn, addr):
         send_answer(conn, data="BAKA-BAKA")
     sql_connect.commit()
     sql_connect.close()
-    if key=="556":
-        send_answer(conn, data="LRHHQSMYKEPML9PSOJ11")
-    else:
-        send_answer(conn, data="BAKABAKA")
-    return
 
 
 sock = socket.socket()
