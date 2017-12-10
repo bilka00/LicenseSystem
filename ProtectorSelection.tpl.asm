@@ -590,8 +590,7 @@ msg MSG
  _caption db 'Client application',0
  _hostname db 'Wrong hostname',0
 
-  hostname db '51.255.161.232',0
-  ;hostname db 'localhost',0
+  hostname db 'localhost',0
   hSock dd ?
   saddr sockaddr_in
   sizesaddr = $-saddr
